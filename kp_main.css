@@ -133,9 +133,9 @@ body {
 
 .nav-background nav .nav-right .nav-icon {
   justify-content: flex-start;
-  height: 3.4rem;
+  height: 3.2rem;
   aspect-ratio: 4/4;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 .burger-button {
@@ -233,6 +233,13 @@ a {
   background-color: none;
   border: none;
   text-decoration: none;
+}
+
+a>img {
+  padding: 0;
+  margin: 0 auto;
+  aspect-ratio: 4/4;
+  /* border: orange dashed 1px; */
 }
 
 a:hover,
@@ -472,6 +479,14 @@ h1, h2, h3, h4, p, ul, li {
   .nav-background nav .nav-right .nav-link {
     display: none;
   }
+
+  a>img {
+    padding: 0;
+    margin: 0 auto;
+    height: 4.0rem;
+    aspect-ratio: 4/4;
+  }
+
 
   .burger-button {
     border: none;
